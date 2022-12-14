@@ -13,11 +13,11 @@ const options = [
 function App() {
   const [mulValue, setMulValue] = useState<SelectOption[]>([])
   const [value, setValue] = useState<SelectOption | undefined>(options[0])
-  return <>
+  return <div style={{ margin: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
     <Select multiple options={options} value={mulValue} onChange={setMulValue} />
     <br />
     <Select options={options} value={value} onChange={setValue} />
-  </>
+  </div>
 }
 
 export default App

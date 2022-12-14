@@ -5,6 +5,8 @@
 
 > Components for fields with selection like tags
 
+![Preview](images/imgForReadme.jpg)
+
 ## Clone
 
 ```js
