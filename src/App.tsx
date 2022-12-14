@@ -1,7 +1,8 @@
+import { Select } from "./components/select/Select"
 
 function App() {
   return <>
-    'Hi'
+    <Select />
   </>
 }
 
