@@ -5,7 +5,7 @@
 
 > Components for fields with selection like tags
 
-![Preview](images/imgForReadme.jpg)
+![Preview](images/imgForReadme.png)
 
 ## Clone
 
